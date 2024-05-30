@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bcecf3;
+}
+#todo-list {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#todo-list input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+}
+#todo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+#todo-list ul li {
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 5px 0;
+}
+#todo-list ul li button {
+  float: right;
+  margin-left: 5px;
+  padding: 5px 10px;
+  background: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#todo-list ul li span {
+  margin-right: 10px;
+}
+.Border {
+  border: 1px solid;
+  text-align: center;
+  background-color: rgb(9, 9, 248);
+  box-shadow: 3px 5px 5px 3px;
+}
