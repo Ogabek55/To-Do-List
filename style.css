@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #bcecf3;
+  background-color: whitesmoke;
+  width: 100%;
 }
 #todo-list {
   max-width: 500px;
@@ -37,4 +38,12 @@ body {
   text-align: center;
   background-color: rgb(9, 9, 248);
   box-shadow: 3px 5px 5px 3px;
+}
+@media screen and (max-width: 500px) {
+  span {
+    display: none;
+  }
+  .responseve {
+    margin-top: 40%;
+  }
 }
