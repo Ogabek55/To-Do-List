@@ -60,6 +60,7 @@ function addItem() {
     updateLocalStorage();
   }
 }
+``;
 
 function updateLocalStorage() {
   const tasks = [];
